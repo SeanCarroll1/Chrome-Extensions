@@ -1,0 +1,26 @@
+{
+    "name": "URL Block",
+    "description": "Redirect to another site",
+    "version": "1.0",
+    "manifest_version": 2,
+	
+	"browser_action": {
+    "default_icon": "icon19.png",
+	"default_popup": "popup.html"
+	},
+	
+    "background": {
+        "scripts": ["background.js"]
+    },
+	
+    "permissions": [
+        "webRequest",
+            "*://facebook.com/*",
+            "*://www.facebook.com/*",
+            "*://espn.com/*",
+            "*://www.espn.com/*",
+            "*://cnn.com/*",
+            "*://www.cnn.com/*",
+        "webRequestBlocking"
+    ]
+}

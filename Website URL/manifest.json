@@ -9,6 +9,11 @@
     "default_icon": "icon19.png",
 	 "default_popup": "popup.html"
   },
+  
+  "background": {
+    "scripts": ["check.js"]
+    
+  },
 	
   "permissions": [
           "tabs"
